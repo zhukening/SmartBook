@@ -51,7 +51,7 @@ import com.felhr.usbserial.*;
  */
 @SimpleObject
 public class SerialCommunication extends AndroidNonvisibleComponent
-        implements Component,OnStopListener, OnResumeListener, Deleteable
+        implements Component,OnStopListener, OnResumeListener//, Deleteable
 {
 
 
