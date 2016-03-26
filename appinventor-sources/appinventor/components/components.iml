@@ -34,5 +34,7 @@
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="module" module-name="build" />
     <orderEntry type="module" module-name="common" />
+    <orderEntry type="module" module-name="build" />
+    <orderEntry type="module" module-name="common" />
   </component>
 </module>

@@ -3,8 +3,8 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/appengine/appengine-java-sdk-1.9.17/lib/shared/jsp-api.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/appengine/appengine-java-sdk-1.9.17/lib/shared/appengine-local-runtime-shared.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/appengine/appengine-java-sdk-1.9.17/lib/shared/el-api.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/appengine/appengine-java-sdk-1.9.17/lib/shared/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/appengine/appengine-java-sdk-1.9.17/lib/shared/el-api.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

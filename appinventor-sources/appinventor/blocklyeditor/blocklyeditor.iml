@@ -17,5 +17,7 @@
     <orderEntry type="library" name="components" level="project" />
     <orderEntry type="module" module-name="components" />
     <orderEntry type="module" module-name="common" />
+    <orderEntry type="module" module-name="components" />
+    <orderEntry type="module" module-name="common" />
   </component>
 </module>

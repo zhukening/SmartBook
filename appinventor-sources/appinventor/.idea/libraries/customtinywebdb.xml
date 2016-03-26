@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="customtinywebdb">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/docs/reference/other/tinywebdbassets/customtinywebdb.zip!/" />
+      <root url="jar://$PROJECT_DIR$/appengine/build/war/reference/other/tinywebdbassets/customtinywebdb.zip!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
