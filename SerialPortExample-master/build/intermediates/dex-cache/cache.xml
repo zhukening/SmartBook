@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\OneDrive\CityU_Research\smARTcraft\SmartBook\SerialPortExample-master\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\OneDrive\CityU_Research\smARTcraft\SmartBook\SerialPortExample-master\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_fc161db7c70cca4743cd5a18e6485fabd1ca6533.jar" />
+    </item>
+    <item
+        jar="D:\OneDrive\CityU_Research\smARTcraft\SmartBook\SerialPortExample-master\app\libs\usbserial.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dbbdee8e0d900d1b3681ac895552ff93af9a47e5">
+        <dex dex="D:\OneDrive\CityU_Research\smARTcraft\SmartBook\SerialPortExample-master\app\build\intermediates\pre-dexed\debug\usbserial_36fc5c66b2f4de49950152d18c99f1c3ba1a0c4b.jar" />
+    </item>
+    <item
+        jar="D:\OneDrive\CityU_Research\smARTcraft\SmartBook\SerialPortExample-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\OneDrive\CityU_Research\smARTcraft\SmartBook\SerialPortExample-master\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_ddad7afa6288161196a45554ff695745e5eb9e82.jar" />
+    </item>
+    <item
+        jar="D:\OneDrive\CityU_Research\smARTcraft\SmartBook\SerialPortExample-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\OneDrive\CityU_Research\smARTcraft\SmartBook\SerialPortExample-master\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_2b451e5237aa6b7ae5c6440f15384259f798044f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kening\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\OneDrive\CityU_Research\smARTcraft\SmartBook\SerialPortExample-master\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_aee3eed964ef9cca749893d4cc9d255b5f88da4f.jar" />
+    </item>
+
+</items>
