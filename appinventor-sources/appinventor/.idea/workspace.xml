@@ -35,8 +35,8 @@
       <file leaf-file-name="SerialCommunication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/src/com/google/appinventor/components/runtime/SerialCommunication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44655582">
-              <caret line="161" column="10" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.49168646">
+              <caret line="169" column="17" selection-start-line="169" selection-start-column="17" selection-end-line="169" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5291#5292#0" expanded="true" />
@@ -520,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/src/com/google/appinventor/components/runtime/SerialCommunication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44655582">
-          <caret line="161" column="10" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.49168646">
+          <caret line="169" column="17" selection-start-line="169" selection-start-column="17" selection-end-line="169" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5291#5292#0" expanded="true" />
