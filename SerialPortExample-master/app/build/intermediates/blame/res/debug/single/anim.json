@@ -1,7 +1,15 @@
 [
     {
+        "merged": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_fade_out.xml"
+    },
+    {
         "merged": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
@@ -20,31 +28,47 @@
         "source": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
         "source": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
         "source": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_top.xml"
     },
     {
         "merged": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "D:\\OneDrive\\CityU_Research\\smARTcraft\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "F:\\StudioProjects\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\Android\\SmartBook\\SerialPortExample-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.3\\res\\anim\\abc_slide_in_bottom.xml"
     }
 ]
