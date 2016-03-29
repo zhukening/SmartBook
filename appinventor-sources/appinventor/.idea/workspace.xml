@@ -35,8 +35,8 @@
       <file leaf-file-name="SerialCommunication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/src/com/google/appinventor/components/runtime/SerialCommunication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28859857">
-              <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.55938244">
+              <caret line="118" column="71" selection-start-line="108" selection-start-column="8" selection-end-line="118" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5293#5294#0" expanded="true" />
@@ -389,7 +389,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -520,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/src/com/google/appinventor/components/runtime/SerialCommunication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28859857">
-          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.55938244">
+          <caret line="118" column="71" selection-start-line="108" selection-start-column="8" selection-end-line="118" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5293#5294#0" expanded="true" />
