@@ -106,10 +106,17 @@ public class SerialCommunication extends AndroidNonvisibleComponent
 
         serialPortConnected = false;
 
-        usbManager = (UsbManager) container.$form().getSystemService(Context.USB_SERVICE);
+        usbManager = (UsbManager) context.getSystemService(Context.USB_SERVICE);
         findSerialPortDevice();
 
+        connection = usbManager.openDevice(device);
+        serialPortConnected = true;
         serialPort = UsbSerialDevice.createUsbSerialDevice(device, connection);
+        serialPort.open();
+        serialPort.setBaudRate(9600);
+        serialPort.setDataBits(UsbSerialInterface.DATA_BITS_8);
+        serialPort.setParity(UsbSerialInterface.PARITY_ODD);
+        serialPort.setFlowControl(UsbSerialInterface.FLOW_CONTROL_OFF);
         /*Transplanted by Ken 20160324*/
         //this.context = this;
 
@@ -152,7 +159,7 @@ public class SerialCommunication extends AndroidNonvisibleComponent
 
     @SimpleFunction(description = "Send")
     public void sendData(int data){
-        Toast.makeText(this.context, "USB Ready", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this.context, "Send something", Toast.LENGTH_SHORT).show();
         byte[] out = {'a'};
         if(serialPort != null)
             serialPort.write(out);
