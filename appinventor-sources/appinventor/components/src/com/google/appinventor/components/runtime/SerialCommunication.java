@@ -115,7 +115,9 @@ public class SerialCommunication extends AndroidNonvisibleComponent
 
     @SimpleFunction(description = "Send")
     public void sendData(int data){
-
+        byte[] out = {1,9};
+        if(usbService != null) // if UsbService was correctly binded, Send data
+            usbService.write(out);
     }
 
     @SimpleFunction(description = "Read")
