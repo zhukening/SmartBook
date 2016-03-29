@@ -152,7 +152,8 @@ public class SerialCommunication extends AndroidNonvisibleComponent
 
     @SimpleFunction(description = "Send")
     public void sendData(int data){
-        byte[] out = {1};
+        Toast.makeText(this.context, "USB Ready", Toast.LENGTH_SHORT).show();
+        byte[] out = {'a'};
         if(serialPort != null)
             serialPort.write(out);
     }
