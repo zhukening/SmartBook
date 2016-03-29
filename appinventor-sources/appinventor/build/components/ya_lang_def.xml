@@ -2825,7 +2825,7 @@ For multiple screen apps, use close screen with value rather than close screen w
   <LangSpecProperties>
     <LangSpecProperty key="ya-kind" value="componentMethod" />
     <LangSpecProperty key="socket-allow-1" value="data/value"/>
-    <LangSpecProperty key="socket-allow-2" value="data/number"/>
+    <LangSpecProperty key="socket-allow-2" value="data/text"/>
   </LangSpecProperties>
 </BlockGenus>
 
@@ -2844,7 +2844,7 @@ For multiple screen apps, use close screen with value rather than close screen w
     <LangSpecProperty key="socket-allow-1" value="component/value"/>
     <LangSpecProperty key="socket-allow-2" value="component/component"/>
     <LangSpecProperty key="socket-allow-3" value="data/value"/>
-    <LangSpecProperty key="socket-allow-4" value="data/number"/>
+    <LangSpecProperty key="socket-allow-4" value="data/text"/>
   </LangSpecProperties>
 </BlockGenus>
 

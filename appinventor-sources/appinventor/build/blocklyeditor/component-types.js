@@ -1628,7 +1628,7 @@ var componentTypeJson = [{ "name": "AccelerometerSensor",
   "blockProperties": [{ "name": "getPortNum", "description": "This is a test by Ken.", "type": "number", "rw": "read-only", "deprecated": "false"}],
   "events": [],
   "methods": [{ "name": "readData", "description": "Read", "deprecated": "false", "params": [], "returnType": "number"},
-    { "name": "sendData", "description": "Send", "deprecated": "false", "params": [{ "name": "data", "type": "number"}]},
+    { "name": "sendData", "description": "Send", "deprecated": "false", "params": [{ "name": "data", "type": "text"}]},
     { "name": "setPortNum", "description": "Set com port", "deprecated": "false", "params": [{ "name": "num", "type": "number"}]}]}
 ,
 { "name": "Sharing",
