@@ -1,5 +1,8 @@
 package com.google.appinventor.components.runtime;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import com.google.appinventor.components.annotations.DesignerComponent;
 import com.google.appinventor.components.annotations.DesignerProperty;
 import com.google.appinventor.components.annotations.PropertyCategory;
@@ -14,7 +17,9 @@ import com.google.appinventor.components.common.PropertyTypeConstants;
 import com.google.appinventor.components.common.YaVersion;
 import com.google.appinventor.components.runtime.util.ErrorMessages;
 
+import android.app.Service;
 import android.content.Context;
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -22,7 +27,9 @@ import android.hardware.SensorManager;
 import android.hardware.usb.UsbDevice;
 import android.hardware.usb.UsbDeviceConnection;
 import android.hardware.usb.UsbManager;
+import android.os.Binder;
 import android.os.Handler;
+import android.os.IBinder;
 import android.widget.Toast;
 
 import java.util.LinkedList;
@@ -51,7 +58,7 @@ import com.felhr.usbserial.*;
  */
 @SimpleObject
 public class SerialCommunication extends AndroidNonvisibleComponent
-        implements Component,OnStopListener, OnResumeListener//, Deleteable
+        implements Component,OnStopListener, OnResumeListener //, Deleteable
 {
 
 
@@ -87,7 +94,16 @@ public class SerialCommunication extends AndroidNonvisibleComponent
     //private Context context;
     private Handler mHandler;
 
+    private IBinder binder = new UsbBinder();
     //private UsbService usbService;
+
+    public class UsbBinder extends Binder
+    {
+        public SerialCommunication getService()
+        {
+            return SerialCommunication.this;
+        }
+    }
 
     public SerialCommunication(ComponentContainer container) {
         super(container.$form());
@@ -102,6 +118,36 @@ public class SerialCommunication extends AndroidNonvisibleComponent
         //setFilter();
        // usbManager = (UsbManager) getSystemService(Context.USB_SERVICE);
         //findSerialPortDevice();
+
+        // This snippet will open the first usb device connected, excluding usb root hubs
+        UsbManager usbManager = (UsbManager) getSystemService(Context.USB_SERVICE);
+        UsbDevice device;
+        UsbDeviceConnection connection;
+        HashMap<String, UsbDevice> usbDevices = usbManager.getDeviceList();
+        if(!usbDevices.isEmpty())
+        {
+            boolean keep = true;
+            for(Map.Entry<String, UsbDevice> entry : usbDevices.entrySet())
+            {
+                device = entry.getValue();
+                int deviceVID = device.getVendorId();
+                int devicePID = device.getProductId();
+                if(deviceVID != 0x1d6b || (devicePID != 0x0001 || devicePID != 0x0002 || devicePID != 0x0003))
+                {
+                    // We are supposing here there is only one device connected and it is our serial device
+                    connection = usbManager.openDevice(device);
+                    keep = false;
+                }else
+                {
+                    connection = null;
+                    device = null;
+                }
+
+                if(!keep)
+                    break;
+            }
+        }
+
         Toast.makeText(this.form, "try connect", Toast.LENGTH_SHORT).show();
         serialPort = UsbSerialDevice.createUsbSerialDevice(device, connection);
         serialPort.open();
@@ -164,4 +210,12 @@ public class SerialCommunication extends AndroidNonvisibleComponent
     public void onStop() {
 
     }
+
+    @Override
+    public IBinder onBind(Intent intent)
+    {
+        return binder;
+    }
+
+
 }
