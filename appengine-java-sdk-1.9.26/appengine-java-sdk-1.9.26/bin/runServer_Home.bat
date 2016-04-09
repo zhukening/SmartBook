@@ -1,0 +1,1 @@
+dev_appserver.sh --port=8888 --address=0.0.0.0 G:\SB\SmartBook\appinventor-sources\appinventor\appengine\war
